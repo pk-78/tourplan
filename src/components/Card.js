@@ -16,7 +16,7 @@ function Card({id, image, name, price, info, removeTour }){
 
     return (
         <div className="card">
-            <img src={image} alt="Failed to load image" className="image" />
+            <img src={image} alt="Failed to load" className="image" />
             <div className="tour-info">
                 <div className="tour-details">
                     <h4 className="tour-name">{name}</h4>
